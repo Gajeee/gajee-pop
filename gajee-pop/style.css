@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  border-bottom: 1px solid #333;
+}
+
+.main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.auth, .feed {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #ffcc00;
+}
+
+form input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #333;
+  background: #222;
+  color: #fff;
+  width: 100%;
+  border-radius: 5px;
+}
+
+form button, #postButton {
+  background: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#postInput {
+  width: 100%;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#postList {
+  list-style: none;
+  padding: 0;
+}
+
+#postList li {
+  background: #111;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

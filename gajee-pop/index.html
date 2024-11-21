@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gajee Pop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Gajee Pop</h1>
+    <p>A minimalist social media platform</p>
+  </div>
+  <div class="main">
+    <div class="auth">
+      <h2>Create Account</h2>
+      <form id="signupForm">
+        <input type="text" id="username" placeholder="Choose a Username" required>
+        <button type="submit">Create Account</button>
+      </form>
+    </div>
+    <div class="feed">
+      <h2>Feed</h2>
+      <textarea id="postInput" placeholder="What's on your mind?"></textarea>
+      <button id="postButton">Post</button>
+      <ul id="postList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
